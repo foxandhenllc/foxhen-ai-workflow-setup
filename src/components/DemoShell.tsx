@@ -64,7 +64,14 @@ export function DemoShell({ demo }: DemoShellProps) {
             <a className="rounded-full px-4 py-2 transition hover:bg-slate-950 hover:text-white" href="#qa">QA</a>
             <a className="rounded-full px-4 py-2 transition hover:bg-slate-950 hover:text-white" href="#package">Package</a>
           </div>
-          <a href={demo.repo} aria-label="Open source repository" className="grid h-10 w-10 place-items-center rounded-full bg-slate-950 text-lg font-black text-white shadow-lg shadow-slate-950/15">↗</a>
+          <a
+            href={demo.repo}
+            aria-label="Open source repository"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-slate-950 px-4 py-2 text-sm font-black !text-white shadow-lg shadow-slate-950/15 ring-1 ring-slate-950/10 transition hover:-translate-y-0.5 hover:bg-slate-800"
+          >
+            <span className="hidden sm:inline">Repository</span>
+            <span aria-hidden="true">↗</span>
+          </a>
         </nav>
 
         <div className="relative z-10 mx-auto grid max-w-7xl gap-8 pb-12 pt-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:pt-16">
@@ -77,8 +84,19 @@ export function DemoShell({ demo }: DemoShellProps) {
             <h1 className="max-w-4xl text-5xl font-black leading-[0.92] tracking-[-0.06em] text-slate-950 sm:text-7xl lg:text-8xl">{demo.title}</h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-700 sm:text-xl">{demo.subtitle}</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a href="#studio" className="rounded-full px-6 py-3 text-center text-sm font-black text-white shadow-xl shadow-[#244d63]/20 transition hover:-translate-y-0.5" style={{ background: demo.accent }}>Try the workflow builder</a>
-              <button onClick={() => simulateCopy('sample export')} className="rounded-full border border-slate-200 bg-white/80 px-6 py-3 text-sm font-black text-slate-900 shadow-sm transition hover:-translate-y-0.5">Simulate export</button>
+              <a
+                href="#studio"
+                className="rounded-full bg-[#143f54] px-6 py-3 text-center text-sm font-black !text-white shadow-xl shadow-[#244d63]/20 ring-1 ring-[#143f54]/10 transition hover:-translate-y-0.5 hover:bg-[#0f3345]"
+              >
+                Try the workflow builder
+              </a>
+              <button
+                onClick={() => simulateCopy('sample export')}
+                className="rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-black text-slate-950 shadow-sm transition hover:-translate-y-0.5 hover:border-slate-400 hover:bg-slate-50"
+                type="button"
+              >
+                Simulate export
+              </button>
             </div>
           </div>
 
