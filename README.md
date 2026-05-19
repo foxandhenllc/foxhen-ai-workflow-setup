@@ -6,7 +6,7 @@ A mocked AI workflow setup showing prompt design, review checks, and handoff out
 
 - Fox & Hen offer: Practical AI workflow setup
 - Upwork catalog proof point: Prompted workflow planner
-- Live demo: Pending Vercel deployment at `https://foxhen-ai-workflow-setup.vercel.app`
+- Live demo: https://foxhen-ai-workflow-setup.vercel.app
 - Repository: https://github.com/foxandhenllc/foxhen-ai-workflow-setup
 
 ## Screenshot
