@@ -1,23 +1,32 @@
-# AI Workflow Setup
+# AI Workflow Setup Studio
 
-A mocked AI workflow setup showing prompt design, review checks, and handoff output with fictional data only.
+A portfolio-grade public sample app for a practical AI workflow setup offer. The demo behaves like a small product: fictional intake notes are transformed into a reusable workflow kit with prompt assets, weighted QA checks, failure modes, operator notes, and an iteration plan.
 
 ## Service Mapping
 
-- Fox & Hen offer: Practical AI workflow setup
-- Upwork catalog proof point: Prompted workflow planner
+- Offer: Practical AI workflow setup
+- Proof point: Intake-to-workflow builder with local sample data
 - Live demo: https://foxhen-ai-workflow-setup.vercel.app
 - Repository: https://github.com/foxandhenllc/foxhen-ai-workflow-setup
 
 ## Screenshot
 
-![AI Workflow Setup demo screenshot](docs/demo-screenshot.png)
+![AI Workflow Setup Studio demo screenshot](docs/demo-screenshot.png)
 
 ## What This Demonstrates
 
-- A polished React/Vite/TypeScript interface for a small fixed-scope service.
-- A clear intake-to-handoff workflow using fictional sample data.
-- Public-safe portfolio proof for Fox & Hen, LLC without real customer data, credentials, or production access.
+- A premium React/Vite/TypeScript interface for a fixed-scope service.
+- Meaningful local interactivity without a server, accounts, third-party calls, or environment variables.
+- Fictional intake examples that become a structured job card, prompt bundle, QA matrix, and handoff package.
+- Clear buyer-facing value: scope the repeatable task, build the AI-assisted step, evaluate risk, and package the operating guide.
+
+## Interactions To Test
+
+1. Pick each fictional intake item in the workflow builder and watch the generated job card update.
+2. Toggle strict review mode to change the workflow confidence score.
+3. Review the weighted QA checks and failure-mode mitigations.
+4. Switch the output package tabs: Workflow, Prompts, QA, and Handoff.
+5. Use the simulated copy/export buttons to see local UI state respond.
 
 ## Local Run
 
@@ -34,4 +43,4 @@ npm run build
 
 ## Scope Note
 
-This repository is a public sample app. It uses local static data only and does not require environment variables, accounts, payments, databases, or third-party services.
+This repository is a public sample app. It uses local static fictional data only and does not require credentials, accounts, payments, databases, third-party services, environment variables, or production access.
