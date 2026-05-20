@@ -78,7 +78,7 @@ export function DemoShell({ demo }: DemoShellProps) {
           <div>
             <div className="mb-5 flex flex-wrap gap-2">
               {demo.serviceMap.map((item) => (
-                <span key={item.label} className="rounded-full border border-white/70 bg-white/70 px-3 py-1.5 text-xs font-black uppercase tracking-[0.16em] text-slate-600 shadow-sm">{item.label}</span>
+                <span key={item.label} title={item.detail} className="rounded-full border border-white/70 bg-white/70 px-3 py-1.5 text-xs font-black uppercase tracking-[0.16em] text-slate-600 shadow-sm">{item.label}</span>
               ))}
             </div>
             <h1 className="max-w-4xl text-5xl font-black leading-[0.92] tracking-[-0.06em] text-slate-950 sm:text-7xl lg:text-8xl">{demo.title}</h1>
@@ -124,6 +124,7 @@ export function DemoShell({ demo }: DemoShellProps) {
                       <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white text-sm font-black text-slate-950">{index + 1}</span>
                       <div>
                         <h3 className="font-black">{step.title}</h3>
+                        <p className="mt-1 text-xs font-semibold uppercase tracking-[0.14em] text-white/35">{step.detail}</p>
                         <p className="mt-1 text-sm leading-5 text-white/58">{step.output}</p>
                       </div>
                     </div>
@@ -289,6 +290,14 @@ export function DemoShell({ demo }: DemoShellProps) {
                   <button onClick={() => simulateCopy(activeTab.label)} className="rounded-full bg-white px-4 py-2 text-sm font-black text-slate-950 transition hover:-translate-y-0.5">{copied === activeTab.label ? 'Added to demo tray' : 'Simulate copy'}</button>
                 </div>
                 <pre className="min-h-[15rem] whitespace-pre-wrap rounded-3xl border border-white/10 bg-white/[0.06] p-5 text-sm leading-7 text-white/72">{packagePreview}</pre>
+                <div className="mt-4 rounded-3xl border border-white/10 bg-white/[0.06] p-5">
+                  <p className="text-xs font-black uppercase tracking-[0.2em] text-white/40">Review checklist for this asset</p>
+                  <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                    {selectedPrompt.checklist.map((item) => (
+                      <span key={item} className="rounded-2xl bg-white/[0.07] px-3 py-2 text-sm font-bold text-white/72">{item}</span>
+                    ))}
+                  </div>
+                </div>
               </div>
 
               <div className="grid gap-4 md:grid-cols-2">
