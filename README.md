@@ -55,6 +55,6 @@ This repository is a public sample app. It uses local static fictional data only
 ## Forking Notes
 
 - Customize `src/data/sample.ts` first; all intake notes, prompts, checks, and handoff copy are typed local data.
-- Keep examples fictional or anonymized, and avoid real customer notes, private prompts, proprietary process docs, or production outputs.
+- Keep examples fictional or anonymized, and avoid real customer notes, internal prompts, proprietary process docs, or production outputs.
 - Update `repo`, `liveUrl`, service labels, and screenshots before using this as a public catalog sample.
 - Do not add API calls, model keys, forms, auth, analytics, or external automation unless a fork explicitly documents that new scope.
