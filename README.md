@@ -1,5 +1,9 @@
 # AI Workflow Setup Studio
 
+## Purpose
+
+AI workflow setup studio for turning intake notes into scoped prompts, QA checks, risk gates, and handoff packages.
+
 A portfolio-grade public sample app for a practical AI workflow setup offer. The demo behaves like a small product: fictional intake notes are transformed into a reusable workflow kit with prompt assets, weighted QA checks, failure modes, operator notes, and an iteration plan.
 
 ## Service Mapping

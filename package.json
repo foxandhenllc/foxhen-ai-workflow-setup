@@ -2,7 +2,7 @@
   "name": "foxhen-ai-workflow-setup",
   "version": "1.0.0",
   "type": "module",
-  "description": "AI Workflow Setup public sample app for Fox & Hen, LLC",
+  "description": "AI workflow setup studio for turning intake notes into scoped prompts, QA checks, risk gates, and handoff packages.",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
@@ -21,5 +21,15 @@
   "devDependencies": {
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3"
-  }
+  },
+  "homepage": "https://foxhen-ai-workflow-setup.vercel.app",
+  "keywords": [
+    "ai-workflow",
+    "prompting",
+    "workflow",
+    "react",
+    "typescript",
+    "vite",
+    "small-business"
+  ]
 }
