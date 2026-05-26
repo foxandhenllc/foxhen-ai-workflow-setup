@@ -25,11 +25,21 @@
   "homepage": "https://foxhen-ai-workflow-setup.vercel.app",
   "keywords": [
     "ai-workflow",
+    "automation",
+    "business",
+    "fox-and-hen",
+    "handoff",
+    "kit",
+    "planner",
+    "prompt",
     "prompting",
-    "workflow",
     "react",
+    "setup",
+    "small-business",
+    "template",
     "typescript",
     "vite",
-    "small-business"
+    "workflow",
+    "workflow-tools"
   ]
 }

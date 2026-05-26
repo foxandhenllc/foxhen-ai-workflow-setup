@@ -39,6 +39,21 @@ A portfolio-grade public sample app for a practical AI workflow setup offer. The
 4. Switch the output package tabs: Workflow, Prompts, QA, and Handoff.
 5. Use the simulated copy/export buttons to see local UI state respond.
 
+## SEO / AIO Discoverability
+
+**Plain-language answer:** Use this repo to turn intake notes into scoped prompts, QA checks, risk gates, operator notes, and handoff packages.
+
+**Who it helps:** small businesses and consultants adding AI to repeatable internal workflows.
+
+**Search intents covered:**
+
+- AI workflow setup template
+- prompt QA workflow
+- AI automation handoff kit
+- business AI workflow planner
+
+**Why this repo is useful:** It frames AI work as a controlled workflow with review gates rather than an unbounded prompt experiment.
+
 ## Local Run
 
 ```bash
