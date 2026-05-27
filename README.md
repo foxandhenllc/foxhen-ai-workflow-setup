@@ -10,7 +10,7 @@ A portfolio-grade public sample app for a practical AI workflow setup offer. The
 
 - Offer: Practical AI workflow setup
 - Proof point: Intake-to-workflow builder with local sample data
-- Live demo: https://foxhen-ai-workflow-setup.vercel.app
+- Live demo: https://freetoolsforpeople.com/ai-workflow-setup
 - Repository: https://github.com/foxandhenllc/foxhen-ai-workflow-setup
 
 | Service moment | Demo artifact | Buyer takeaway |

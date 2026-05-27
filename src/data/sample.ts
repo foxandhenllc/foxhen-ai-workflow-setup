@@ -69,7 +69,7 @@ export const demo: DemoData = {
   subtitle:
     'A public-safe mini product that turns fictional intake notes into a scoped AI workflow package with prompts, quality gates, and operator handoff notes.',
   repo: 'https://github.com/foxandhenllc/foxhen-ai-workflow-setup',
-  liveUrl: 'https://foxhen-ai-workflow-setup.vercel.app',
+  liveUrl: 'https://freetoolsforpeople.com/ai-workflow-setup',
   accent: '#244d63',
   warm: '#b98146',
   intakeNotes: [
