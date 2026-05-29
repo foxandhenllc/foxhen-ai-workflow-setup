@@ -1,5 +1,7 @@
 # AI Workflow Setup Studio
 
+[![Build](https://github.com/foxandhenllc/foxhen-ai-workflow-setup/actions/workflows/build.yml/badge.svg)](https://github.com/foxandhenllc/foxhen-ai-workflow-setup/actions/workflows/build.yml)
+
 ## Purpose
 
 AI workflow setup studio for turning intake notes into scoped prompts, QA checks, risk gates, and handoff packages.
@@ -54,6 +56,13 @@ A portfolio-grade public sample app for a practical AI workflow setup offer. The
 
 **Why this repo is useful:** It frames AI work as a controlled workflow with review gates rather than an unbounded prompt experiment.
 
+## Open Source Readiness
+
+- MIT licensed for reuse, remixing, and client-safe adaptation.
+- GitHub Actions build workflow runs install, typecheck, tests when present, and production build.
+- Contribution guide, roadmap, and issue templates are included for public collaboration.
+- Public-safe data policy keeps examples fictional and reviewable.
+
 ## Local Run
 
 ```bash
@@ -77,3 +86,19 @@ This repository is a public sample app. It uses local static fictional data only
 - Keep examples fictional or anonymized, and avoid real customer notes, internal prompts, proprietary process docs, or production outputs.
 - Update `repo`, `liveUrl`, service labels, and screenshots before using this as a public catalog sample.
 - Do not add API calls, model keys, forms, auth, analytics, or external automation unless a fork explicitly documents that new scope.
+
+## Validation
+
+```bash
+npm run typecheck --if-present
+npm run test --if-present
+npm run build --if-present
+```
+
+## Contributing
+
+See `CONTRIBUTING.md` for public-safe contribution rules, local validation commands, and good first contribution ideas. Roadmap items live in `ROADMAP.md`.
+
+## License
+
+MIT - see `LICENSE`.
